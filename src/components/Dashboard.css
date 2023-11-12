@@ -1,0 +1,96 @@
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold; 
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-container {
+  position: relative;
+}
+
+.back-to-list-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 10px;
+  background-color: #0056b3;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-to-list-link:hover {
+  background-color: #0077cc;
+}
+
+.dashboard-course {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.dashboard-course:hover {
+  transform: scale(1.02);
+}
+
+.dashboard-course-info {
+  flex: 2;
+}
+
+.dashboard-course-info h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #0056b3;
+}
+
+.dashboard-course-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.dashboard-course-progress {
+  flex: 1;
+  text-align: center;
+}
+
+progress {
+  width: 100%;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+.completion-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.completion-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.completion-button:hover {
+  background-color: #45a049;
+}
